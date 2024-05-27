@@ -57,12 +57,14 @@ pip install python-docx openpyxl lxml PyQt5
 
 ### Installation
 
-> [!Tip] For Windows users:
+> [!NOTE]
+> For Windows users:
 1. Download `excel-to-word-report-generator.exe` file, place it in some folder
 2. First launch `excel-to-word-report-generator.exe` file to create the required structure
 
   
-> [!Tip] For others:
+> [!NOTE]
+> For others:
 1. Clone the Repository:
 ```bash
 git clone https://github.com/alexey-igorevich-github-repository/accountancy-support-tools/excel-to-word-report-generator.git
@@ -160,13 +162,15 @@ The script is able to handle exceptions gracefully. If an error occurs, a small 
   
 ### Support
 
-> [!Success] Here are some credentials in case you want to support:
+> [!TIP] 
+> Here are some credentials in case you want to support:
 
-
+<br>
  BTC: bc1qfkuxgu0vkl5u5pr2l0uag74a4u2273w2a9j95f <br>
-<div><p><a href="https://yoomoney.ru/to/4100118693354177"> <img align="left" src="https://avatars.githubusercontent.com/u/6553002?s=200&v=4" height="75" width="75" alt="Yoomoney" /></a></p></div>
 
-<div><p><a href="https://ko-fi.com/alexey_i_c"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="Buy me a coffee" /></a></p></div>
+<div><p><a href="https://yoomoney.ru/to/4100118693354177"> <img align="left" src="https://avatars.githubusercontent.com/u/6553002?s=200&v=4" height="75" width="75" alt="Yoomoney" /></a></p></div><br>
+
+<div><p><a href="https://ko-fi.com/alexey_i_c"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="Buy me a coffee" /></a></p></div><br>
 
 
 --------------------------------------------------------------------
