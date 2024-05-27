@@ -165,7 +165,7 @@ The script is able to handle exceptions gracefully. If an error occurs, a small 
 > [!TIP] 
 > Here are some credentials in case you want to support:
 
-<div style="margin-bottom: 10px;">
+<div style="margin-bottom: 25px;">
 BTC: bc1qfkuxgu0vkl5u5pr2l0uag74a4u2273w2a9j95f
 <div>
 <div style="display: flex; flex-direction: column; gap: 10px;">
