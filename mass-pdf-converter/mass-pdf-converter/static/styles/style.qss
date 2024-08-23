@@ -1,0 +1,161 @@
+QWidget {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+QLabel {
+    padding: 5px;
+}
+
+QLabel#avg_speed_label {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+QLabel#processed_files_label {
+    color: #ff9900;
+}
+
+QLabel#estimated_time_label {
+    color: #ff3300;
+    font-style: italic;
+}
+
+QProgressBar {
+    border-color: #59515f;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #0f0f0f;
+    height: 26px;
+    border-radius: 13px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    /* looks buggy somehow */
+    border-color: qlineargradient(x1:0, y1:1, x2:1, y2:0, stop:0 #11c2e1, stop:1 #893a94);
+    border-width: 1px;
+    border-style: solid;
+    /* same as border-color but with 37% opacity */
+    background-color: qlineargradient(x1:0, y1:1, x2:1, y2:0, stop:0 #6011c2e1, stop:1 #60893a94);
+    border-radius: 11px;
+    margin: 2px;
+}
+
+QPushButton#open_files_btn {
+    width: 150px;
+    height: 35px;
+    background-color: #0f0f0f;
+    color: #6600ff;
+    border: 1px solid #6600ff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+QPushButton#open_files_btn:hover {
+    border: 3px solid;
+    border-color: qlineargradient(x1:0.50, y1:1, x2:0.58, y2:0, stop:0 #53949f, stop:1 #755579);
+    color: qlineargradient(x1:0.50, y1:1, x2:0.58, y2:0, stop:0 #53949f, stop:1 #755579);
+}
+QPushButton#open_files_btn:pressed {
+    background-color: #6600ff;
+    border-color: #000000;
+    color: #000000;
+}
+
+
+QPushButton#delete_selected_from_listbox_btn {
+    width: 150px;
+    height: 35px;
+    background-color: #0f0f0f;
+    color: #856f00;
+    border: 1px solid #856f00;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+QPushButton#delete_selected_from_listbox_btn:hover {
+    border: 3px solid;
+    border-color: qlineargradient(x1:0.50, y1:1, x2:0.58, y2:0, stop:0 #53949f, stop:1 #755579);
+    color: qlineargradient(x1:0.50, y1:1, x2:0.58, y2:0, stop:0 #53949f, stop:1 #755579);
+}
+QPushButton#delete_selected_from_listbox_btn:pressed {
+    background-color: #856f00;
+    border-color: #000000;
+    color: #000000;
+}
+
+
+QPushButton#clear_listbox_btn {
+    width: 150px;
+    height: 35px;
+    background-color: #0f0f0f;
+    color: #540f00;
+    border: 1px solid #540f00;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+QPushButton#clear_listbox_btn:hover {
+    border: 3px solid;
+    border-color: qlineargradient(x1:0.50, y1:1, x2:0.58, y2:0, stop:0 #53949f, stop:1 #755579);
+    color: qlineargradient(x1:0.50, y1:1, x2:0.58, y2:0, stop:0 #53949f, stop:1 #755579);
+}
+QPushButton#clear_listbox_btn:pressed {
+    background-color: #540f00;
+    border-color: #000000;
+    color: #000000;
+}
+
+
+QPushButton#open_folder_btn {
+    width: 150px;
+    height: 35px;
+    background-color: #0f0f0f;
+    color: #6600ff;
+    border: 1px solid #6600ff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+QPushButton#open_folder_btn:hover {
+    border: 3px solid;
+    border-color: qlineargradient(x1:0.50, y1:1, x2:0.58, y2:0, stop:0 #53949f, stop:1 #755579);
+    color: qlineargradient(x1:0.50, y1:1, x2:0.58, y2:0, stop:0 #53949f, stop:1 #755579);
+}
+QPushButton#open_folder_btn:pressed {
+    background-color: #6600ff;
+    border-color: #000000;
+    color: #000000;
+}
+
+
+QPushButton#convert_btn {
+    width: 150px;
+    height: 35px;
+    background-color: #0f0f0f;
+    color: #1fff35;
+    border: 1px solid #1fff35;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+QPushButton#convert_btn:hover {
+    border: 3px solid;
+    border-color: qlineargradient(x1:0.50, y1:1, x2:0.58, y2:0, stop:0 #53949f, stop:1 #755579);
+    color: qlineargradient(x1:0.50, y1:1, x2:0.58, y2:0, stop:0 #53949f, stop:1 #755579);
+}
+QPushButton#convert_btn:pressed {
+    background-color: #1fff35;
+    border-color: #000000;
+    color: #000000;
+}
+
+
+QFrame#hline1, QFrame#hline2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
