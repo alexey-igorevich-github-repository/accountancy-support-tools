@@ -65,7 +65,7 @@ def clear_com_cache():
 #############################################################
 
 logging.config.dictConfig(logger_conf)
-logger = logging.getLogger('my_python_logger')
+logger = logging.getLogger('the_logger')
 
 #############################################################
 
